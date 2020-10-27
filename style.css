@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: black;
+}
+.xixi{
+    padding-top: 50px;
+    float: right;
+    color: white;
+}
+.banner{
+    background-image: url("img/Asset1.png");
+    padding: 80px 40px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 400px;
+
+
+}
+header{
+    background-color: black;
+}
+.banner h1{
+    text-align: center;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 80px;
+    color: white;
+    padding-top: 50px;
+}
+.banner p{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    width: 250px;
+   margin: auto;
+    font-weight: bold;
+ 
+}
+.banner #button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+header .navbar{
+    background-color: white;
+
+}
+header ul{
+  
+    padding: 10px   ;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+  
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.judul{
+    color: wheat;
+    text-align: center;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.container{
+    /* display: flex;
+    align-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center; */
+    width: 90%;
+    margin: auto;
+    /* float: right; */
+    display: inline-block;
+
+}
+#new{
+    color:white;
+    margin: 0px 100px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,auto);
+}
